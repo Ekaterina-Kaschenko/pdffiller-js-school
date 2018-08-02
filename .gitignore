@@ -1,0 +1,17 @@
+node_modules
+dist
+coverage
+build
+
+.idea
+.vscode
+.DS_Store
+npm-debug.log
+stats.json
+
+log
+doc
+uploads*
+tmp
+pgdata
+.vscode

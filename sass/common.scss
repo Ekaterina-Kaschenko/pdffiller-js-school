@@ -2,6 +2,7 @@ body {
   font-size: 16px;
   color: #515769;
   font-family: 'Roboto Condensed', sans-serif;
+  counter-reset: section;
 }
 
 .wrapper {
@@ -13,11 +14,29 @@ body {
 
 .block {
   margin: 24px 0;
+  position: relative;
+
+  &::before {
+    counter-increment: section;
+    content: counter(section) '. ';
+    position: absolute;
+    left: -20px;
+    top: 0;
+  }
 }
 
 .row {
   display: flex;
 }
+
+.list {
+  padding-left: 24px;
+}
+
+.item {
+  margin-bottom: 24px;
+}
+
 
 .important-text {
   font-weight: 700;
@@ -28,7 +47,7 @@ body {
   font-weight: 400;
 }
 
-ul li:before {
+.secondary-list li:before {
   content:  '—';
   position: relative;
   left: -8px;

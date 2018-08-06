@@ -1,0 +1,11 @@
+.table {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-row {
+  background-color: #d6ebff;
+}

@@ -3,3 +3,26 @@ body {
   color: #515769;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 48px;
+  line-height: 1.5;
+}
+
+.row {
+  display: flex;
+}
+// .link {
+//   display: block;
+// }
+
+.important-text {
+  font-weight: 700;
+  padding-right: 8px;
+}
+
+.text {
+  font-weight: 400;
+}

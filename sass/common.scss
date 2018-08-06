@@ -26,3 +26,9 @@ body {
 .text {
   font-weight: 400;
 }
+
+ul li:before {
+  content:  '—';
+  position: relative;
+  left: -5px;
+}
